@@ -26,10 +26,18 @@ Swiggy delivers **88% of orders on time**. The remaining 12% (≈1.2M orders/mon
 - `/docs/PRD.pdf` — Printable version
 
 ## 🔗 Quick Links
-- [Live PRD Document](./PRD_Swiggy_Late_Deliveries.md)
-- [Wireframe Gallery](./wireframes/)
-- [Loom Walkthrough](https://www.loom.com/your-link-here)
+## 🔗 Quick Links
 
+| Type | Link |
+|------|------|
+| 📄 **Live PRD Document** | [PRD.md](./PRD.md) |
+| 🖼️ **Wireframe Gallery** | [./wireframes/](./wireframes/) |
+| 🎥 **Loom Walkthrough** | [Watch here](https://www.loom.com/share/your-video-id) |
+| 📊 **Executive Summary** | [./docs/executive-summary.md](./docs/executive-summary.md) |
+| 📈 **Metrics Dashboard** | [./docs/metrics-tracking.md](./docs/metrics-tracking.md) |
+| 👥 **User Personas** | [./docs/user-personas.md](./docs/user-personas.md) |
+| 🔬 **Root Cause Analysis** | [./research/root-cause-analysis.md](./research/root-cause-analysis.md) |
+| 🚀 **Launch Plan** | [./launch-plan/rollout-strategy.md](./launch-plan/rollout-strategy.md) |
 ## 📈 Key Metrics Tracked
 - North Star: On-time delivery rate
 - Counter-metrics: Rider churn, restaurant rejection rate
