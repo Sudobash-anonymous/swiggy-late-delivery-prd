@@ -59,3 +59,67 @@
 ---
 
 ## Dashboard Design (Mock)
+┌─────────────────────────────────────────────────────────────────┐
+│ SWIGGY DELIVERY OPS DASHBOARD Last 24h ▼ │
+├─────────────────────────────────────────────────────────────────┤
+│ │
+│ ┌────────────┐ ┌────────────┐ ┌────────────┐ ┌────────────┐ │
+│ │ 88% │ │ 42 min │ │ 12,847 │ │ ₹48Cr │ │
+│ │ On-time │ │ Wait avg │ │ Late │ │ Annual │ │
+│ │ ▲ +0.5% │ │ ▼ -2 min │ │ orders │ │ impact │ │
+│ └────────────┘ └────────────┘ └────────────┘ └────────────┘ │
+│ │
+│ Late Orders by Root Cause (Last 7 days) │
+│ ┌─────────────────────────────────────────────────────────┐ │
+│ │ Restaurant ████████████████████ 42% ▲ +2% │ │
+│ │ No rider ████████████ 23% ▼ -1% │ │
+│ │ Batching █████████ 18% ▼ -3% │ │
+│ │ Traffic ██████ 12% → 0% │ │
+│ │ Rider ██ 5% ▼ -1% │ │
+│ └─────────────────────────────────────────────────────────┘ │
+│ │
+│ Real-time Alerts │
+│ ┌─────────────────────────────────────────────────────────┐ │
+│ │ 🟡 Bangalore: Prep delay rate ↑ 45% (above 35% alert) │ │
+│ │ 🟢 Delhi: On-time rate 91% (above target) │ │
+│ │ 🔴 Mumbai: Rider churn 14% (critical) → Page engineer │ │
+│ └─────────────────────────────────────────────────────────┘ │
+
+
+
+---
+
+## Alert Configuration
+
+| Severity | Color | Response Time | Action |
+|----------|-------|---------------|--------|
+| Critical | 🔴 Red | 5 min | Page on-call engineer + PM |
+| Warning | 🟡 Yellow | 30 min | Slack alert to team |
+| Info | 🔵 Blue | 2 hours | Log for daily review |
+
+---
+
+## Weekly Business Review (WBR) Template
+
+**Every Monday, 10 AM**
+
+### Section 1: Last Week's Performance
+- On-time rate: ___ (↑/↓ vs target)
+- Top 3 root causes: ___, ___, ___
+- Biggest win: ___
+- Biggest miss: ___
+
+### Section 2: Experiment Results
+- A/B test name: ___
+- Result: ___ (significant / not significant)
+- Action: (ship / iterate / kill)
+
+### Section 3: This Week's Focus
+- Priority 1: ___
+- Priority 2: ___
+- Risk to watch: ___
+
+### Section 4: Customer Feedback (Top 3 complaints)
+1. ___
+2. ___
+3. ___
